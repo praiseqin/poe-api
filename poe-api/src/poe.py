@@ -173,7 +173,7 @@ class Client:
 
     self.setup_count += 1
 
-    self.ws_domain = f"tch167104"
+    self.ws_domain = "tch167104"
     self.next_data = self.get_next_data(overwrite_vars=True)
     self.channel = self.get_channel_data()
 
